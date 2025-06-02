@@ -1,4 +1,4 @@
-# Racx Studio
+# GennyGift store
 ![alt text](https://github.com/racmathafidz/racxstudio/blob/master/src/assets/images/screely.png)
 
 ### About
