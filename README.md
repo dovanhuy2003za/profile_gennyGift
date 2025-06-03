@@ -1,5 +1,5 @@
 # GennyGift store
-![alt text](https://github.com/racmathafidz/racxstudio/blob/master/src/assets/images/screely.png)
+![alt text](https://github.com/racmathafidz/racxstudio/blob/master/public/assets/images/Screenshot 2025-06-03 201705.png)
 
 ### About
 A software house profile website built with ReactJS and TailwindCSS :computer:
@@ -20,7 +20,7 @@ A software house profile website built with ReactJS and TailwindCSS :computer:
 - [**ESLint**](https://eslint.org/) : Linting and formatting
 
 ### Demo
-**Demo :** [racxstudio.vercel.app](https://racxstudio.vercel.app/)
+**Demo :** (https://www.gennygift.vn/)
 
 ### Available Scripts
 In the project directory, you can run:
