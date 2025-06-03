@@ -13,9 +13,9 @@ export default function BrandIcon() {
       type="link"
       href="/"
     >
-      <p className="text-theme-blue text-4xl font-medium ">
-        Genny
-        <span className="text-theme-purple">gift</span>
+      <p className="text-pink-500 text-4xl font-medium">
+        GENNY
+        <span className="text-pink-600"> GIFT</span>
       </p>
     </Button>
   );

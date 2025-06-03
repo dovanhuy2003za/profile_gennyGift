@@ -5,7 +5,10 @@
 section {
   @apply mb-28;
 }
-
+body{
+  margin: 0;
+  padding: 0;
+}
 .active-link {
   @apply text-theme-purple;
 }

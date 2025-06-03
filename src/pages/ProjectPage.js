@@ -9,7 +9,7 @@ import HeroPortfolio from 'parts/HeroPortfolio';
 import Discuss from 'parts/Discuss';
 import Footer from 'parts/Footer';
 import AllPortfolio from 'parts/AllPortfolio';
-
+import TopBar from 'parts/TopBar';
 import { Portfolios } from 'json/landingPageData';
 
 export default class ProjectPage extends Component {
@@ -20,7 +20,9 @@ export default class ProjectPage extends Component {
   render() {
     return (
       <>
+        <TopBar />
         <Header />
+        <div className="h-[88px]" />
         <HeroPortfolio />
         <AllPortfolio data={Portfolios} />
         <Discuss />

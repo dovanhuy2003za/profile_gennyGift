@@ -15,6 +15,7 @@ import Advantage from 'parts/Advantage';
 import Testimonial from 'parts/Testimonial';
 import Discuss from 'parts/Discuss';
 import Footer from 'parts/Footer';
+import TopBar from 'parts/TopBar';
 
 export default class LandingPage extends Component {
   componentDidMount() {
@@ -24,7 +25,9 @@ export default class LandingPage extends Component {
   render() {
     return (
       <>
+        <TopBar />
         <Header />
+        <div className="h-[88px]" />
         <Hero />
         <Service data={Services} />
         <Portfolio data={Portfolios} />

@@ -25,35 +25,75 @@ import Reiner from '../assets/images/Testimonials/Reiner.jpg';
 import Kruger from '../assets/images/Testimonials/Kruger.jpg';
 
 // TeamMembers
-import CEO from '../assets/images/TeamMembers/CEO.jpg';
-import HRD from '../assets/images/TeamMembers/HRD.jpg';
-import Finance from '../assets/images/TeamMembers/Finance.jpg';
-import ProjectManager from '../assets/images/TeamMembers/Project-manager.jpg';
-import Frontend1 from '../assets/images/TeamMembers/Frontend1.jpg';
-import Frontend2 from '../assets/images/TeamMembers/Frontend2.jpg';
-import Backend1 from '../assets/images/TeamMembers/Backend1.jpg';
-import Backend2 from '../assets/images/TeamMembers/Backend2.jpg';
-import Mobile1 from '../assets/images/TeamMembers/Mobile1.jpg';
-import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
-import UIUX1 from '../assets/images/TeamMembers/UIUX1.jpg';
-import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
+import CEO1 from '../assets/images/TeamMembers/CEO1.png';
+import Markerting from '../assets/images/TeamMembers/Markerting.png';
+import Sales from '../assets/images/TeamMembers/Sales.png';
+import Media from '../assets/images/TeamMembers/Media.png';
 
 export const Services = [
   {
-    title: 'Web Development',
+    title: 'ĐÓNG GÓI & THIẾT KẾ THEO YÊU CẦU ',
+    description: 'Chúng tôi cung cấp dịch vụ đóng gói và thiết kế quà tặng theo yêu cầu của khách hàng, đảm bảo mỗi món quà đều mang dấu ấn riêng biệt.',
     imageUrl: Web,
     animation: 'left',
   },
   {
-    title: 'Mobile Development',
+    title: 'IN ẢNH/LOGO - CÁ NHÂN HOÁ THIỆP & TAG THƯƠNG HIỆU',
+    description: 'Chúng tôi hỗ trợ in ấn hình ảnh, logo và cá nhân hóa thiệp/tag thương hiệu, giúp món quà trở nên đặc biệt và mang đậm dấu ấn thương hiệu.',
     imageUrl: Mobile,
-    animation: 'up',
+    animation: 'top',
   },
   {
-    title: 'UI/UX Design',
+    title: 'BÁO GIÁ MINH BẠCH HỢP ĐỒNG RÕ RÀNG XUẤT HOÁ ĐƠN ĐẦY ĐỦ',
+    description: 'Chúng tôi cam kết báo giá minh bạch, hợp đồng rõ ràng và xuất hóa đơn đầy đủ, đảm bảo quyền lợi của khách hàng.',
     imageUrl: UIUX,
     animation: 'right',
   },
+  {
+    title: 'GỢI Ý TƯỞNG QUÀ TẶNG THEO NGÂN SÁCH VÀ ĐỐI TƯỢNG NHẬN',
+    description: 'Chúng tôi cung cấp gợi ý quà tặng theo ngân sách và đối tượng nhận, giúp khách hàng dễ dàng lựa chọn món quà phù hợp.',
+    imageUrl: Mobile,
+    animation: 'left',
+  },
+  {
+    title: 'SHIP TOÀN QUỐC GIAO ĐÚNG NGƯỜI ĐÚNG THỜI ĐIỂM',
+    description: 'Chúng tôi cung cấp dịch vụ giao hàng toàn quốc, đảm bảo món quà được giao đúng người và đúng thời điểm.',
+    imageUrl: UIUX,
+    animation: 'up',
+  },
+  {
+    title: 'TỔ CHỨC CHIẾN DỊCH QUÀ TẶNG CHO DOANH NGHIỆP',
+    description: 'Chúng tôi hỗ trợ tổ chức các chiến dịch quà tặng cho doanh nghiệp, từ ý tưởng đến thực hiện, giúp nâng cao giá trị thương hiệu.',
+    imageUrl: Mobile,
+    animation: 'right',
+  },
+
+];
+export const Introdata = [
+  [{
+    title: 'TẦM NHÌN ',
+    description: 'Trở thành thương hiệu quà tặng hàng đầu tại Việt Nam, tiên phong trong việc cá nhân hóa trải nghiệm tặng quà, kết nối cảm xúc và lan tỏa giá trị bền vững cho cá nhân và doanh nghiệp.',
+    imageUrl: Web,
+    animation: 'left',
+  },
+  {
+    title: 'XỨ MỆNH',
+    description: 'Mang đến giải pháp quà tặng chỉn chu, tinh tế, mang đậm dấu ấn người tặng.Tạo ra những món quà không chỉ đẹp mắt mà còn chạm đến cảm xúc – khắc sâu thương hiệu.',
+    imageUrl: Mobile,
+    animation: 'right',
+  }],
+  [{
+    title: 'GIÁ TRỊ CỐT LÕI',
+    description: 'Chất lượng: Chú trọng từ sản phẩm đến dịch vụ, đảm bảo sự chỉn chu trong từng chi tiết. Sáng tạo: Không ngừng đổi mới thiết kế, sản phẩm và trải nghiệm để mỗi món quà đều mang giá trị riêng biệt. Lan tỏa: Mỗi món quà là một hành trình năng lượng tích cực, yêu thương, văn hóa và thông điệp.',
+    imageUrl: UIUX,
+    animation: 'right',
+  },
+  {
+    title: 'TUYÊN NGÔN THƯƠNG HIỆU',
+    description: 'GENNY GIFT không chỉ trao tay một hộp quà, chúng tôi trao đi cảm xúc – kết nối – và dấu ấn cá nhân hóa. Từng sản phẩm là kết tinh của sự thấu hiểu, sáng tạo và trách nhiệm. Từng chiến dịch là sự đồng hành bền bỉ cùng khách hàng, đối tác và thương hiệu.',
+    imageUrl: Mobile,
+    animation: 'right',
+  }],
 ];
 
 export const Portfolios = [
@@ -127,23 +167,33 @@ export const Portfolios = [
 
 export const Advantages = [
   [{
-    title: 'Communicative',
-    description: 'We communicate our project ideas and progress to make it clear.',
+    title: 'CÁ NHÂN HÓA TỪNG MÓN QUÀ',
+    description: 'Tất cả set quà được thiết kế theo chủ đề, cảm xúc và đối tượng nhận – giúp bạn gửi gắm đúng thông điệp tới người nhận.',
     imageUrl: Communicative,
   },
   {
-    title: 'Management',
-    description: 'We manage our project properly to make our project done well.',
+    title: 'TƯ VẤN SÂU – ĐỒNG HÀNH THẬT',
+    description: 'Đội ngũ chăm sóc tận tâm, hiểu thị trường – giúp bạn chọn đúng gu, đúng dịp – đúng người.',
     imageUrl: Management,
   }],
   [{
-    title: 'Collaborative​',
-    description: 'Our team are very collaborative to make our project done well.',
+    title: 'QUY TRÌNH ĐẶT HÀNG LINH HOẠT – NHANH GỌN​',
+    description: 'Đặt hàng dễ dàng – tư vấn nhanh chóng – giao hàng đúng hẹn. GENNY GIFT luôn đồng hành từ lúc chọn quà đến khi quà đến tay người nhận.',
     imageUrl: Collaborative,
   },
   {
-    title: 'Favorite',
-    description: "We've did so many project and all of our client love it.",
+    title: 'BÁO GIÁ CHI TIẾT – CHI PHÍ LINH HOẠT',
+    description: "Giá cạnh tranh – linh hoạt theo ngân sách – phù hợp cả khách lẻ và doanh nghiệp.",
+    imageUrl: Favorite,
+  }],
+  [{
+    title: 'HỖ TRỢ THƯƠNG HIỆU DOANH NGHIỆP​',
+    description: 'In logo, thiệp theo yêu cầu, đóng gói nhận diện riêng. Quà tặng không chỉ đẹp mà còn giúp tăng độ nhận diện thương hiệu.',
+    imageUrl: Collaborative,
+  },
+  {
+    title: 'HỖ TRỢ 24/7 – GIAO HÀNG TOÀN QUỐC',
+    description: "Giao hàng nhanh trên toàn quốc, hỗ trợ đổi mẫu theo yêu cầu đặc biệt của từng chiến dịch.",
     imageUrl: Favorite,
   }],
 ];
@@ -173,63 +223,23 @@ export const Testimonials = [
 
 export const TeamMembers = [
   {
-    name: 'Rach David',
-    position: 'CEO',
-    imageUrl: CEO,
+    name: 'ĐỖ XUÂN TRƯỜNG',
+    position: 'CEO-Founder',
+    imageUrl: CEO1,
   },
   {
-    name: 'Pauline Sydney',
-    position: 'HRD',
-    imageUrl: HRD,
+    name: 'Lừ Văn Quốc',
+    position: 'LEADER  Marketing',
+    imageUrl: Markerting,
   },
   {
-    name: 'Granger Watterson',
-    position: 'Finance',
-    imageUrl: Finance,
+    name: 'Nguyễn Văn Tuyền',
+    position: 'LEADER Sales',
+    imageUrl: Sales,
   },
   {
-    name: 'Tom Jimmy',
-    position: 'Project Manager',
-    imageUrl: ProjectManager,
-  },
-  {
-    name: 'Jim Hendrix',
-    position: 'Front-end Developer',
-    imageUrl: Frontend1,
-  },
-  {
-    name: 'Calvin Max',
-    position: 'Front-end Developer',
-    imageUrl: Frontend2,
-  },
-  {
-    name: 'Hawkins Jim',
-    position: 'Back-end Developer',
-    imageUrl: Backend1,
-  },
-  {
-    name: 'Don Bizaro',
-    position: 'Back-end Developer',
-    imageUrl: Backend2,
-  },
-  {
-    name: 'Bill Markinson',
-    position: 'Mobile Developer',
-    imageUrl: Mobile1,
-  },
-  {
-    name: 'Igor Kavarov',
-    position: 'Mobile Developer',
-    imageUrl: Mobile2,
-  },
-  {
-    name: 'Freddie Curl',
-    position: 'UI/UX Designer',
-    imageUrl: UIUX2,
-  },
-  {
-    name: 'Monica Lovegood',
-    position: 'UI/UX Designer',
-    imageUrl: UIUX1,
+    name: 'Đào Đắc Dũng',
+    position: 'LEADER Media',
+    imageUrl: Media,
   },
 ];

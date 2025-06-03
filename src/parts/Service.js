@@ -12,11 +12,12 @@ export default function Service({ data }) {
     <div className="bg-gray-50">
       <div className="container mx-auto pt-20 pb-28">
         <Fade direction="right" triggerOnce>
-          <h1 className="text-5xl text-theme-blue text-center font-bold">Our Service</h1>
+          <h1 className="text-5xl text-theme-blue text-center font-bold">Dịch vụ của chúng tôi</h1>
         </Fade>
         <Fade direction="left" triggerOnce>
           <p className="font-light text-lg text-gray-400 text-center mb-12">
-            We are ready to scale up your business with our great service.
+            Chúng tôi cung cấp các giải pháp quà tặng cá nhân hóa và quà tặng doanh nghiệp,
+            từ ý tưởng, thiết kế, đóng gói đến cảm xúc khi người nhận mở quà.
           </p>
         </Fade>
 
@@ -24,11 +25,12 @@ export default function Service({ data }) {
           {
             data.map((item, index) => (
               // eslint-disable-next-line react/no-array-index-key
-              <Fade direction={item.animation} delay={500 * index} key={index} triggerOnce>
+              <Fade direction={item.animation} delay={200 * index} key={index} triggerOnce>
                 <div>
                   <div className="bg-white group rounded-2xl shadow-2xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
                     <img src={item.imageUrl} alt="Service" className="w-full rounded-t-2xl" />
-                    <h2 className="text-theme-blue text-center text-xl py-7 rounded-b-2xl">{item.title}</h2>
+                    <h2 className="text-theme-blue text-center text-xl py-2 rounded-b-2xl">{item.title}</h2>
+
                   </div>
                 </div>
               </Fade>

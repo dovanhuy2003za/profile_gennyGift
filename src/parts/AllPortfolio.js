@@ -100,7 +100,7 @@ export default function AllPortfolio({ data }) {
             <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 justify-items-center">
               {
                 data.map((item, index) => (
-                  <Fade bottom triggerOnce delay={500 * index} key={index}>
+                  <Fade bottom triggerOnce delay={200 * index} key={index}>
                     <Button type="link" href={`/project/${item.id}`}>
                       <div className="group rounded-2xl shadow-xl w-auto w-11/12 m-3 transform transition duration-500 hover:scale-110 portofolio-card">
                         <div className="relative">

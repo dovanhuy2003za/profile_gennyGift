@@ -23,11 +23,11 @@ export default function Testimonial({ data }) {
   return (
     <section className="container mx-auto">
       <Fade direction="up">
-        <h1 className="text-5xl text-theme-blue text-center font-bold">Testimonials</h1>
+        <h1 className="text-5xl text-theme-blue text-center font-bold">Khách hàng nói gì về chúng tôi</h1>
       </Fade>
       <Fade direction="up" delay={500}>
         <p className="font-light text-lg text-gray-400 text-center mb-3 sm:mb-3 xl:mb-4">
-          What they said about us.
+          <h1>Trải nghiệm mua quà thật dễ dàng và tiện lợi tại gennygiftvietnam.</h1>
         </p>
       </Fade>
       {/* eslint-disable-next-line react/jsx-max-props-per-line */}

@@ -8,7 +8,7 @@ import Header from 'parts/Header';
 import { useParams } from 'react-router-dom';
 import PortfolioDetail from 'parts/PortfolioDetail';
 import Footer from 'parts/Footer';
-
+import TopBar from 'parts/TopBar';
 import { Portfolios } from 'json/landingPageData';
 
 export const ProjectDetailPage = () => {
@@ -19,7 +19,9 @@ export const ProjectDetailPage = () => {
   }, []);
   return (
     <>
+      <TopBar />
       <Header />
+      <div className="h-[88px]" />
       <PortfolioDetail data={detailData.length === 1 ? [detailData[0]] : null} />
       <Footer />
     </>

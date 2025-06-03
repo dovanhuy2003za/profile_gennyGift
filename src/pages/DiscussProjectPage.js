@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { useState, useEffect } from 'react';
 import { DiscussForm } from 'parts/DiscussForm';
-
+import TopBar from 'parts/TopBar';
 import Header from 'parts/Header';
 import Footer from 'parts/Footer';
 
@@ -39,7 +39,9 @@ export const DiscussProjectPage = () => {
 
   return (
     <>
+      <TopBar />
       <Header />
+      <div className="h-[88px]" />
       <DiscussForm data={data} onChange={onChange} resetForm={resetForm} />
       <Footer />
     </>
