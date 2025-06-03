@@ -1,5 +1,5 @@
 # GennyGift store
-![alt text](https://github.com/racmathafidz/racxstudio/blob/master/public/assets/images/Screenshot 2025-06-03 201705.png)
+![alt text](https://github.com/racmathafidz/racxstudio/blob/master/public/assets/images/demo.png)
 
 ### About
 A software house profile website built with ReactJS and TailwindCSS :computer:
