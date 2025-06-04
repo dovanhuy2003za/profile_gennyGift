@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 
 import {
-  Services, Portfolios, Advantages, Testimonials,
+  Services, Portfolios, Advantages, Testimonials, steps,
 } from 'json/landingPageData';
 import Header from 'parts/Header';
 import Hero from 'parts/Hero';
@@ -16,6 +16,7 @@ import Testimonial from 'parts/Testimonial';
 import Discuss from 'parts/Discuss';
 import Footer from 'parts/Footer';
 import TopBar from 'parts/TopBar';
+import Process from 'parts/Process';
 
 export default class LandingPage extends Component {
   componentDidMount() {
@@ -32,6 +33,11 @@ export default class LandingPage extends Component {
         <Service data={Services} />
         <Portfolio data={Portfolios} />
         <Advantage data={Advantages} />
+        <Process
+          steps={steps}
+          title="Quy trình hoạt động tại Genny Gift"
+          subtitle="GENNY GIFT PROVIDES OPTIMAL GIFT SOLUTIONS"
+        />
         <Testimonial data={Testimonials} />
         <Discuss />
         <Footer />

@@ -14,11 +14,11 @@ export default function Portfolio({ data }) {
   return (
     <section className="container mx-auto flex flex-col items-center mt-20">
       <Fade direction="right" triggerOnce>
-        <h1 className="text-5xl text-theme-blue text-center font-bold">Our Selected Project</h1>
+        <h1 className="text-5xl text-theme-blue text-center font-bold">Sản phẩm của chúng tôi</h1>
       </Fade>
       <Fade direction="left" triggerOnce>
         <p className="font-light text-lg text-gray-400 text-center mb-12">
-          We are ready to scale up your business with our great work result.
+          Chúng tôi tin rằng, một món quà được trao đúng lúc – sẽ mở ra những kết nối đúng người.
         </p>
       </Fade>
 

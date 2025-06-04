@@ -35,7 +35,7 @@ export default function Header() {
     <header
       style={{ marginTop: isScrolled ? 0 : '0.5rem' }}
       className={`header fixed left-0 w-full z-50 bg-white shadow-md transition-all duration-300
-      ${isScrolled ? 'top-0' : 'top-7'} h-12 lg:h-14
+      ${isScrolled ? 'top-0' : 'top-18 sm:top-14 lg:top-7'} h-12 lg:h-14
       `}
     >
       <div className="flex justify-between px-4 lg:px-0 py-0 items-center h-full">
@@ -77,6 +77,15 @@ export default function Header() {
             Sản phẩm
           </Button>
         </li>
+        <li className="py-1 lg:py-0">
+          <Button
+            className={`${path === '/ceertificate' ? 'active-link' : ''} font-medium px-3 no-underline hover:underline`}
+            type="link"
+            href="/ceertificate"
+          >
+            Giấy kiểm định
+          </Button>
+        </li>        
         <li>
           <Button
             className="font-medium mx-auto ml-2 px-4 py-1.5 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200 text-sm"
@@ -124,6 +133,15 @@ export default function Header() {
                 href="/project"
               >
                 Sản phẩm
+              </Button>
+            </li>
+            <li className="py-1 bg-white">
+              <Button
+                className={`${path === '/project' ? 'active-link' : ''} font-medium px-6 no-underline hover:underline text-sm`}
+                type="link"
+                href="/ceertificate"
+              >
+                Giấy kiểm định
               </Button>
             </li>
             <li className="mx-auto my-6 bg-white">

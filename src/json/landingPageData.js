@@ -4,6 +4,7 @@
 import Web from '../assets/images/Services/Web.png';
 import Mobile from '../assets/images/Services/Mobile.png';
 import UIUX from '../assets/images/Services/Design.png';
+import s1 from '../assets/images/Services/s1.png';
 
 // Portfolio Img Imports
 import Recruiting from '../assets/images/Portfolio/Recruiting.png';
@@ -34,7 +35,7 @@ export const Services = [
   {
     title: 'ĐÓNG GÓI & THIẾT KẾ THEO YÊU CẦU ',
     description: 'Chúng tôi cung cấp dịch vụ đóng gói và thiết kế quà tặng theo yêu cầu của khách hàng, đảm bảo mỗi món quà đều mang dấu ấn riêng biệt.',
-    imageUrl: Web,
+    imageUrl: s1,
     animation: 'left',
   },
   {
@@ -241,5 +242,43 @@ export const TeamMembers = [
     name: 'Đào Đắc Dũng',
     position: 'LEADER Media',
     imageUrl: Media,
+  },
+];
+export const steps = [
+  {
+    number: 1,
+    title: "TIẾP NHẬN YÊU CẦU",
+    subtitle: "RECEIVING REQUESTS",
+    desc: "GENNY GIFT tiếp nhận nhu cầu tặng quà từ cá nhân hoặc doanh nghiệp qua các kênh hotline, Zalo, fanpage hoặc form mẫu.",
+  },
+  {
+    number: 2,
+    title: "TƯ VẤN GÓI QUÀ PHÙ HỢP",
+    subtitle: "CONSULTING SUITABLE GIFT SETS",
+    desc: "Đội ngũ tư vấn dựa theo mục đích tặng, ngân sách và người nhận để đề xuất các gói quà phù hợp và bảng giá chi tiết.",
+  },
+  {
+    number: 3,
+    title: "THỐNG NHẤT & XÁC NHẬN ĐƠN HÀNG",
+    subtitle: "AGREEMENT & ORDER CONFIRMATION",
+    desc: "Hai bên chốt mẫu, số lượng, thời gian giao hàng và hình thức thanh toán. Có thể ký hợp đồng nếu là khách doanh nghiệp.",
+  },
+  {
+    number: 4,
+    title: "THIẾT KẾ & ĐÓNG GÓI SẢN PHẨM",
+    subtitle: "PRODUCT DESIGN & PACKAGING",
+    desc: "Thực hiện thiết kế thiệp, in logo (nếu có), lựa chọn phụ kiện đi kèm và đóng gói trọn bộ theo yêu cầu.",
+  },
+  {
+    number: 5,
+    title: "GIAO HÀNG TẬN TAY",
+    subtitle: "HAND-DELIVERY",
+    desc: "Giao hàng tận nơi theo thời gian yêu cầu. Hỗ trợ ship nhiều điểm hoặc số lượng lớn trên toàn quốc.",
+  },
+  {
+    number: 6,
+    title: "ĐÁNH GIÁ & HẬU MÃI",
+    subtitle: "EVALUATION & AFTERCARE",
+    desc: "Gửi báo cáo sau chiến dịch (với khách doanh nghiệp), thu thập phản hồi từ người nhận, đề xuất nâng cấp cho lần sau.",
   },
 ];

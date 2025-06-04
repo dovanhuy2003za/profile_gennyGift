@@ -20,8 +20,8 @@ export default function Advantage({ data }) {
           </p>
         </Fade>
 
-        <div className="flex flex-col sm:flex-row">
-          <div className="flex-col">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="flex-col -mt-4 sm:mt-14">
             {
               data[0].map((item, index) => (
                 <Fade bottom triggerOnce delay={500 * index} key={index}>
