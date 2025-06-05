@@ -23,10 +23,12 @@
       }
     ],
     "import/extensions": [
-      1,
+      "error",
+      "ignorePackages",
       {
-        "js": "always",
-        "json": "always"
+        "js": "never",
+        "jsx": "never",
+        "png": "always"
       }
     ],
     "eslint-disable-next-line react/no-array-index-key": "off",
