@@ -20,7 +20,7 @@ A software house profile website built with ReactJS and TailwindCSS :computer:
 - [**ESLint**](https://eslint.org/) : Linting and formatting
 
 ### Demo
-**Demo :** (https://www.gennygift.vn/)
+**Demo :** ([https://www.gennygift.vn/](https://profile-gennygift.onrender.com/))
 
 ### Available Scripts
 In the project directory, you can run:
